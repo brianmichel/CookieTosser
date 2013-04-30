@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480439E117308C440097EF54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E017308C440097EF54 /* UIKit.framework */; };
+		480439E317308C440097EF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E217308C440097EF54 /* Foundation.framework */; };
+		480439E517308C440097EF54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E417308C440097EF54 /* CoreGraphics.framework */; };
+		480439EB17308C440097EF54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 480439E917308C440097EF54 /* InfoPlist.strings */; };
+		480439ED17308C440097EF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480439EC17308C440097EF54 /* main.m */; };
+		480439F117308C440097EF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480439F017308C440097EF54 /* AppDelegate.m */; };
+		480439F317308C440097EF54 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 480439F217308C440097EF54 /* Default.png */; };
+		480439F517308C440097EF54 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480439F417308C440097EF54 /* Default@2x.png */; };
+		480439F717308C440097EF54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480439F617308C440097EF54 /* Default-568h@2x.png */; };
+		480439FA17308C440097EF54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480439F917308C440097EF54 /* ViewController.m */; };
+		480439FD17308C440097EF54 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480439FB17308C440097EF54 /* ViewController_iPhone.xib */; };
+		48043A0017308C440097EF54 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480439FE17308C440097EF54 /* ViewController_iPad.xib */; };
+		48043A0817308C440097EF54 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48043A0717308C440097EF54 /* SenTestingKit.framework */; };
+		48043A0917308C440097EF54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E017308C440097EF54 /* UIKit.framework */; };
+		48043A0A17308C440097EF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E217308C440097EF54 /* Foundation.framework */; };
+		48043A1217308C440097EF54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48043A1017308C440097EF54 /* InfoPlist.strings */; };
+		48043A1517308C440097EF54 /* CookieTosserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48043A1417308C440097EF54 /* CookieTosserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48043A0B17308C440097EF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480439D517308C440097EF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480439DC17308C440097EF54;
+			remoteInfo = CookieTosser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480439DD17308C440097EF54 /* CookieTosser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieTosser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480439E017308C440097EF54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		480439E217308C440097EF54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		480439E417308C440097EF54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		480439E817308C440097EF54 /* CookieTosser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieTosser-Info.plist"; sourceTree = "<group>"; };
+		480439EA17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		480439EC17308C440097EF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480439EE17308C440097EF54 /* CookieTosser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookieTosser-Prefix.pch"; sourceTree = "<group>"; };
+		480439EF17308C440097EF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480439F017308C440097EF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480439F217308C440097EF54 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		480439F417308C440097EF54 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		480439F617308C440097EF54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		480439F817308C440097EF54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480439F917308C440097EF54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480439FC17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		480439FF17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		48043A0617308C440097EF54 /* CookieTosserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieTosserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48043A0717308C440097EF54 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		48043A0F17308C440097EF54 /* CookieTosserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieTosserTests-Info.plist"; sourceTree = "<group>"; };
+		48043A1117308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48043A1317308C440097EF54 /* CookieTosserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookieTosserTests.h; sourceTree = "<group>"; };
+		48043A1417308C440097EF54 /* CookieTosserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieTosserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480439DA17308C440097EF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480439E117308C440097EF54 /* UIKit.framework in Frameworks */,
+				480439E317308C440097EF54 /* Foundation.framework in Frameworks */,
+				480439E517308C440097EF54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48043A0217308C440097EF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48043A0817308C440097EF54 /* SenTestingKit.framework in Frameworks */,
+				48043A0917308C440097EF54 /* UIKit.framework in Frameworks */,
+				48043A0A17308C440097EF54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480439D417308C440097EF54 = {
+			isa = PBXGroup;
+			children = (
+				480439E617308C440097EF54 /* CookieTosser */,
+				48043A0D17308C440097EF54 /* CookieTosserTests */,
+				480439DF17308C440097EF54 /* Frameworks */,
+				480439DE17308C440097EF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480439DE17308C440097EF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480439DD17308C440097EF54 /* CookieTosser.app */,
+				48043A0617308C440097EF54 /* CookieTosserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480439DF17308C440097EF54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480439E017308C440097EF54 /* UIKit.framework */,
+				480439E217308C440097EF54 /* Foundation.framework */,
+				480439E417308C440097EF54 /* CoreGraphics.framework */,
+				48043A0717308C440097EF54 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		480439E617308C440097EF54 /* CookieTosser */ = {
+			isa = PBXGroup;
+			children = (
+				480439EF17308C440097EF54 /* AppDelegate.h */,
+				480439F017308C440097EF54 /* AppDelegate.m */,
+				480439F817308C440097EF54 /* ViewController.h */,
+				480439F917308C440097EF54 /* ViewController.m */,
+				480439FB17308C440097EF54 /* ViewController_iPhone.xib */,
+				480439FE17308C440097EF54 /* ViewController_iPad.xib */,
+				480439E717308C440097EF54 /* Supporting Files */,
+			);
+			path = CookieTosser;
+			sourceTree = "<group>";
+		};
+		480439E717308C440097EF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480439E817308C440097EF54 /* CookieTosser-Info.plist */,
+				480439E917308C440097EF54 /* InfoPlist.strings */,
+				480439EC17308C440097EF54 /* main.m */,
+				480439EE17308C440097EF54 /* CookieTosser-Prefix.pch */,
+				480439F217308C440097EF54 /* Default.png */,
+				480439F417308C440097EF54 /* Default@2x.png */,
+				480439F617308C440097EF54 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48043A0D17308C440097EF54 /* CookieTosserTests */ = {
+			isa = PBXGroup;
+			children = (
+				48043A1317308C440097EF54 /* CookieTosserTests.h */,
+				48043A1417308C440097EF54 /* CookieTosserTests.m */,
+				48043A0E17308C440097EF54 /* Supporting Files */,
+			);
+			path = CookieTosserTests;
+			sourceTree = "<group>";
+		};
+		48043A0E17308C440097EF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48043A0F17308C440097EF54 /* CookieTosserTests-Info.plist */,
+				48043A1017308C440097EF54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480439DC17308C440097EF54 /* CookieTosser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48043A1817308C440097EF54 /* Build configuration list for PBXNativeTarget "CookieTosser" */;
+			buildPhases = (
+				480439D917308C440097EF54 /* Sources */,
+				480439DA17308C440097EF54 /* Frameworks */,
+				480439DB17308C440097EF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieTosser;
+			productName = CookieTosser;
+			productReference = 480439DD17308C440097EF54 /* CookieTosser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48043A0517308C440097EF54 /* CookieTosserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48043A1B17308C440097EF54 /* Build configuration list for PBXNativeTarget "CookieTosserTests" */;
+			buildPhases = (
+				48043A0117308C440097EF54 /* Sources */,
+				48043A0217308C440097EF54 /* Frameworks */,
+				48043A0317308C440097EF54 /* Resources */,
+				48043A0417308C440097EF54 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48043A0C17308C440097EF54 /* PBXTargetDependency */,
+			);
+			name = CookieTosserTests;
+			productName = CookieTosserTests;
+			productReference = 48043A0617308C440097EF54 /* CookieTosserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480439D517308C440097EF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Michel";
+			};
+			buildConfigurationList = 480439D817308C440097EF54 /* Build configuration list for PBXProject "CookieTosser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 480439D417308C440097EF54;
+			productRefGroup = 480439DE17308C440097EF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480439DC17308C440097EF54 /* CookieTosser */,
+				48043A0517308C440097EF54 /* CookieTosserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480439DB17308C440097EF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480439EB17308C440097EF54 /* InfoPlist.strings in Resources */,
+				480439F317308C440097EF54 /* Default.png in Resources */,
+				480439F517308C440097EF54 /* Default@2x.png in Resources */,
+				480439F717308C440097EF54 /* Default-568h@2x.png in Resources */,
+				480439FD17308C440097EF54 /* ViewController_iPhone.xib in Resources */,
+				48043A0017308C440097EF54 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48043A0317308C440097EF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48043A1217308C440097EF54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48043A0417308C440097EF54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480439D917308C440097EF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480439ED17308C440097EF54 /* main.m in Sources */,
+				480439F117308C440097EF54 /* AppDelegate.m in Sources */,
+				480439FA17308C440097EF54 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48043A0117308C440097EF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48043A1517308C440097EF54 /* CookieTosserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48043A0C17308C440097EF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480439DC17308C440097EF54 /* CookieTosser */;
+			targetProxy = 48043A0B17308C440097EF54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480439E917308C440097EF54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480439EA17308C440097EF54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		480439FB17308C440097EF54 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480439FC17308C440097EF54 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		480439FE17308C440097EF54 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480439FF17308C440097EF54 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		48043A1017308C440097EF54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48043A1117308C440097EF54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48043A1617308C440097EF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48043A1717308C440097EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48043A1917308C440097EF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieTosser/CookieTosser-Prefix.pch";
+				INFOPLIST_FILE = "CookieTosser/CookieTosser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48043A1A17308C440097EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieTosser/CookieTosser-Prefix.pch";
+				INFOPLIST_FILE = "CookieTosser/CookieTosser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48043A1C17308C440097EF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookieTosser.app/CookieTosser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieTosser/CookieTosser-Prefix.pch";
+				INFOPLIST_FILE = "CookieTosserTests/CookieTosserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		48043A1D17308C440097EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookieTosser.app/CookieTosser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieTosser/CookieTosser-Prefix.pch";
+				INFOPLIST_FILE = "CookieTosserTests/CookieTosserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480439D817308C440097EF54 /* Build configuration list for PBXProject "CookieTosser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48043A1617308C440097EF54 /* Debug */,
+				48043A1717308C440097EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48043A1817308C440097EF54 /* Build configuration list for PBXNativeTarget "CookieTosser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48043A1917308C440097EF54 /* Debug */,
+				48043A1A17308C440097EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48043A1B17308C440097EF54 /* Build configuration list for PBXNativeTarget "CookieTosserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48043A1C17308C440097EF54 /* Debug */,
+				48043A1D17308C440097EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 480439D517308C440097EF54 /* Project object */;
+}

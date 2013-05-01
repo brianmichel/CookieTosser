@@ -8,6 +8,9 @@
 
 #import "ModifyCookieViewController.h"
 
+const CGFloat kModifyCookieViewControllerInset = 10.0;
+const CGFloat kModifyCookieViewControllerFieldHeight = 40.0;
+
 @interface ModifyCookieViewController ()
 @property (strong) NSHTTPCookie *cookie;
 @property (strong) UITextField *nameField;
@@ -28,8 +31,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor lightGrayColor];
     self.title = self.cookie ? [NSString stringWithFormat:@"Edit '%@'", self.cookie.name] : @"Create Cookie";
-    self.nameField = [[UITextField alloc] initWithFrame:CGRectMake(10, 10, self.view.frame.size.width - 20, 40)];
-    self.valueField = [[UITextField alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(self.nameField.frame) + 10, self.nameField.frame.size.width, self.nameField.frame.size.height)];
+    self.nameField = [[UITextField alloc] initWithFrame:CGRectMake(kModifyCookieViewControllerInset, kModifyCookieViewControllerInset, self.view.frame.size.width - (kModifyCookieViewControllerInset * 2.0), kModifyCookieViewControllerFieldHeight)];
+    self.valueField = [[UITextField alloc] initWithFrame:CGRectMake(kModifyCookieViewControllerInset, CGRectGetMaxY(self.nameField.frame) + kModifyCookieViewControllerInset, self.nameField.frame.size.width, self.nameField.frame.size.height)];
     
     for (UITextField *field in @[self.nameField, self.valueField]) {
         field.backgroundColor = [UIColor whiteColor];

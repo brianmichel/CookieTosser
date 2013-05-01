@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "ModifyCookieViewController.h"
 
+const CGFloat kViewControllerTableHeight = 300.0;
+
 @interface ViewController () <UIWebViewDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (strong) UIWebView *webView;
 @property (strong) UITableView *table;
@@ -26,7 +28,7 @@
     UIBarButtonItem *createCookie = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addCookie:)];
     self.navigationItem.rightBarButtonItem = createCookie;
     
-    self.table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300) style:UITableViewStyleGrouped];
+    self.table = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kViewControllerTableHeight) style:UITableViewStyleGrouped];
     self.table.delegate = self;
     self.table.dataSource = self;
     [self.view addSubview:self.table];

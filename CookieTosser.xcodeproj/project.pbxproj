@@ -17,13 +17,12 @@
 		480439F517308C440097EF54 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480439F417308C440097EF54 /* Default@2x.png */; };
 		480439F717308C440097EF54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480439F617308C440097EF54 /* Default-568h@2x.png */; };
 		480439FA17308C440097EF54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480439F917308C440097EF54 /* ViewController.m */; };
-		480439FD17308C440097EF54 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480439FB17308C440097EF54 /* ViewController_iPhone.xib */; };
-		48043A0017308C440097EF54 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480439FE17308C440097EF54 /* ViewController_iPad.xib */; };
 		48043A0817308C440097EF54 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48043A0717308C440097EF54 /* SenTestingKit.framework */; };
 		48043A0917308C440097EF54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E017308C440097EF54 /* UIKit.framework */; };
 		48043A0A17308C440097EF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480439E217308C440097EF54 /* Foundation.framework */; };
 		48043A1217308C440097EF54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48043A1017308C440097EF54 /* InfoPlist.strings */; };
 		48043A1517308C440097EF54 /* CookieTosserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48043A1417308C440097EF54 /* CookieTosserTests.m */; };
+		48043A2017309D900097EF54 /* ModifyCookieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48043A1F17309D900097EF54 /* ModifyCookieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,21 +44,21 @@
 		480439EA17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		480439EC17308C440097EF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		480439EE17308C440097EF54 /* CookieTosser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookieTosser-Prefix.pch"; sourceTree = "<group>"; };
-		480439EF17308C440097EF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		480439F017308C440097EF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480439EF17308C440097EF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		480439F017308C440097EF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		480439F217308C440097EF54 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		480439F417308C440097EF54 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		480439F617308C440097EF54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		480439F817308C440097EF54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		480439F917308C440097EF54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		480439FC17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		480439FF17308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		480439F817308C440097EF54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = "<group>"; };
+		480439F917308C440097EF54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = "<group>"; };
 		48043A0617308C440097EF54 /* CookieTosserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieTosserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48043A0717308C440097EF54 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		48043A0F17308C440097EF54 /* CookieTosserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieTosserTests-Info.plist"; sourceTree = "<group>"; };
 		48043A1117308C440097EF54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48043A1317308C440097EF54 /* CookieTosserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookieTosserTests.h; sourceTree = "<group>"; };
 		48043A1417308C440097EF54 /* CookieTosserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieTosserTests.m; sourceTree = "<group>"; };
+		48043A1E17309D900097EF54 /* ModifyCookieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModifyCookieViewController.h; path = Classes/ModifyCookieViewController.h; sourceTree = "<group>"; };
+		48043A1F17309D900097EF54 /* ModifyCookieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModifyCookieViewController.m; path = Classes/ModifyCookieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				480439E617308C440097EF54 /* CookieTosser */,
+				480439E717308C440097EF54 /* Supporting Files */,
 				48043A0D17308C440097EF54 /* CookieTosserTests */,
 				480439DF17308C440097EF54 /* Frameworks */,
 				480439DE17308C440097EF54 /* Products */,
@@ -123,9 +123,8 @@
 				480439F017308C440097EF54 /* AppDelegate.m */,
 				480439F817308C440097EF54 /* ViewController.h */,
 				480439F917308C440097EF54 /* ViewController.m */,
-				480439FB17308C440097EF54 /* ViewController_iPhone.xib */,
-				480439FE17308C440097EF54 /* ViewController_iPad.xib */,
-				480439E717308C440097EF54 /* Supporting Files */,
+				48043A1E17309D900097EF54 /* ModifyCookieViewController.h */,
+				48043A1F17309D900097EF54 /* ModifyCookieViewController.m */,
 			);
 			path = CookieTosser;
 			sourceTree = "<group>";
@@ -142,6 +141,7 @@
 				480439F617308C440097EF54 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = CookieTosser;
 			sourceTree = "<group>";
 		};
 		48043A0D17308C440097EF54 /* CookieTosserTests */ = {
@@ -238,8 +238,6 @@
 				480439F317308C440097EF54 /* Default.png in Resources */,
 				480439F517308C440097EF54 /* Default@2x.png in Resources */,
 				480439F717308C440097EF54 /* Default-568h@2x.png in Resources */,
-				480439FD17308C440097EF54 /* ViewController_iPhone.xib in Resources */,
-				48043A0017308C440097EF54 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +275,7 @@
 				480439ED17308C440097EF54 /* main.m in Sources */,
 				480439F117308C440097EF54 /* AppDelegate.m in Sources */,
 				480439FA17308C440097EF54 /* ViewController.m in Sources */,
+				48043A2017309D900097EF54 /* ModifyCookieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,22 +304,6 @@
 				480439EA17308C440097EF54 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		480439FB17308C440097EF54 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				480439FC17308C440097EF54 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		480439FE17308C440097EF54 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				480439FF17308C440097EF54 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		48043A1017308C440097EF54 /* InfoPlist.strings */ = {
